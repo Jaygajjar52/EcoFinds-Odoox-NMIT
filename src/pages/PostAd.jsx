@@ -118,12 +118,12 @@ const PostAd = () => {
             <ArrowLeft className="h-5 w-5" />
           </Link>
           <span className="text-gray-400">/</span>
-          <span className="text-gray-600">Post ITEAM</span>
+          <span className="text-gray-600">Post ITEM</span>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm">
           <div className="px-6 py-4 border-b">
-            <h1 className="text-2xl font-bold text-gray-900">POST YOUR ITEAM</h1>
+            <h1 className="text-2xl font-bold text-gray-900">POST YOUR ITEM</h1>
             <p className="text-gray-600">Fill in the details to post </p>
           </div>
 
