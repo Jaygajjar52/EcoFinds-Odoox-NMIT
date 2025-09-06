@@ -118,7 +118,7 @@ const PostAd = () => {
             <ArrowLeft className="h-5 w-5" />
           </Link>
           <span className="text-gray-400">/</span>
-          <span className="text-gray-600">Post ITEAM</span>
+          <span className="text-gray-600">Post ITEM</span>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm">
