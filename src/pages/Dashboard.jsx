@@ -69,7 +69,7 @@ const Dashboard = () => {
                 className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors flex items-center space-x-2"
               >
                 <Plus className="h-5 w-5" />
-                <span>Post New Iteam</span>
+                <span>Post New Item</span>
               </Link>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Dashboard = () => {
                     : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                 }`}
               >
-                My Iteam
+                My Item
               </button>
               <button
                 onClick={() => setActiveTab('profile')}
@@ -144,7 +144,7 @@ const Dashboard = () => {
            
             <div className="bg-white rounded-lg shadow-sm">
               <div className="px-6 py-4 border-b">
-                <h2 className="text-lg font-semibold text-gray-900">Recent Iteam</h2>
+                <h2 className="text-lg font-semibold text-gray-900">Recent Item</h2>
               </div>
               <div className="p-6">
                 {userProducts.length > 0 ? (
@@ -156,14 +156,14 @@ const Dashboard = () => {
                 ) : (
                   <div className="text-center py-8">
                     <Package className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-                    <h3 className="text-lg font-medium text-gray-900 mb-2">No Iteam yet</h3>
-                    <p className="text-gray-600 mb-4">Start by posting your first Iteam</p>
+                    <h3 className="text-lg font-medium text-gray-900 mb-2">No Item yet</h3>
+                    <p className="text-gray-600 mb-4">Start by posting your first Item</p>
                     <Link
                       to="/post-ad"
                       className="inline-flex items-center bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition-colors"
                     >
                       <Plus className="h-4 w-4 mr-2" />
-                      Post New Iteam
+                      Post New Item
                     </Link>
                   </div>
                 )}
@@ -175,13 +175,13 @@ const Dashboard = () => {
         {activeTab === 'ads' && (
           <div className="bg-white rounded-lg shadow-sm">
             <div className="px-6 py-4 border-b flex justify-between items-center">
-              <h2 className="text-lg font-semibold text-gray-900">My Iteam</h2>
+              <h2 className="text-lg font-semibold text-gray-900">My Item</h2>
               <Link
                 to="/post-ad"
                 className="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition-colors flex items-center space-x-2"
               >
                 <Plus className="h-4 w-4" />
-                <span>Post New Iteam</span>
+                <span>Post New Item</span>
               </Link>
             </div>
             <div className="p-6">
@@ -194,14 +194,14 @@ const Dashboard = () => {
               ) : (
                 <div className="text-center py-8">
                   <Package className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-                  <h3 className="text-lg font-medium text-gray-900 mb-2">No Iteam posted</h3>
-                  <p className="text-gray-600 mb-4">Start selling by posting your first Iteam</p>
+                  <h3 className="text-lg font-medium text-gray-900 mb-2">No Item posted</h3>
+                  <p className="text-gray-600 mb-4">Start selling by posting your first Item</p>
                   <Link
                     to="/post-ad"
                     className="inline-flex items-center bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition-colors"
                   >
                     <Plus className="h-4 w-4 mr-2" />
-                    Post New Iteam
+                    Post New Item
                   </Link>
                 </div>
               )}
@@ -296,7 +296,7 @@ const Dashboard = () => {
         {activeTab === 'favorites' && (
           <div className="bg-white rounded-lg shadow-sm">
             <div className="px-6 py-4 border-b">
-              <h2 className="text-lg font-semibold text-gray-900">Favorite Iteam</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Favorite Item</h2>
             </div>
             <div className="p-6">
               <div className="text-center py-8">
